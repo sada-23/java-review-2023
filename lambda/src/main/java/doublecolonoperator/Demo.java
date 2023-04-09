@@ -40,7 +40,7 @@ public class Demo {
         display2.accept(50);
 
 
-
+        // Parameters: MyClass=classType, Integer=method parameters, Double=return type
         BiFunction<MyClass,Integer,Double> v2 = MyClass::method;
 
         BiFunction<String,String,String> v3 = String::concat;
